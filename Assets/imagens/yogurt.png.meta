@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      yogurt_0: 6410465096218271185
+      yogurt_1: 4721069024180714213
+      yogurt_2: 4109419724350899073
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

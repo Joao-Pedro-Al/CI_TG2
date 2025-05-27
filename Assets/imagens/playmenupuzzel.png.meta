@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      playmenupuzzel_0: -6357729668395862878
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

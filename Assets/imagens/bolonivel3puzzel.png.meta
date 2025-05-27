@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bolonivel3puzzel_0: -2236707642467262399
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

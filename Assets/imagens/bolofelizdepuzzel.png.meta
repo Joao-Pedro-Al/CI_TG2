@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bolofelizdepuzzel_0: -1296020872944741184
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
