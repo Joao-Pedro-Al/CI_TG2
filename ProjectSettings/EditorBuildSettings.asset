@@ -18,11 +18,17 @@ EditorBuildSettings:
     path: Assets/Scenes/menuNIveisPuzzel.unity
     guid: bf98c48540964cc469ced8460158ffc6
   - enabled: 1
-    path: Assets/Scenes/menuPuzzel.unity
+    path: Assets/Scenes/menupuzzel.unity
     guid: a45aac83a38713847b4550ea444c9a25
   - enabled: 1
     path: Assets/Scenes/quiz.unity
     guid: 31ebf8962e8ba91428e03020ce5ed14f
+  - enabled: 1
+    path: Assets/Scenes/Nivel2Puzzel.unity
+    guid: 8cf541172fee25b4493d9c079a2ab33a
+  - enabled: 1
+    path: Assets/Scenes/FinalScenePuzzelNV2.unity
+    guid: 2d851c79b33b5b44bb89e6975ba59ef3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
