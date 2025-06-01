@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -6,6 +7,10 @@ public class GameManager : MonoBehaviour
 
     //0 = Fácil, 1 = Médio, 2 = Difícil
     public static int dificuldade = 0;
+
+    public static void SetDificuldade(int x){
+        dificuldade = x;
+    }
 
 
     public static void Acertou()

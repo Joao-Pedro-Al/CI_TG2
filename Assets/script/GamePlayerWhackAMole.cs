@@ -34,6 +34,9 @@ public class GamePlayer : MonoBehaviour
     private List<GameObject> listBrocolos;
 
     [SerializeField]
+    private List<GameObject> listCenouras;
+
+    [SerializeField]
     private TMP_Text timerText;
 
     private float currentTimer;
@@ -45,6 +48,7 @@ public class GamePlayer : MonoBehaviour
         randomNumberGenerator = new System.Random();
         currentTimer = 0;
         StartCoroutine(ChangeVegetal());
+        print(difi);
     }
 
     void Update()
@@ -72,8 +76,20 @@ public class GamePlayer : MonoBehaviour
         {
             yield return new WaitForSeconds(timer);
             listBrocolos.ForEach(item => item.SetActive(false));
+            listCenouras.ForEach(item => item.SetActive(false));
             int randomNumber = randomNumberGenerator.Next(0, listBrocolos.Count);
-            listBrocolos[randomNumber].SetActive(true);
+            int BrocoloOuCenoura = randomNumberGenerator.Next(0, 2);
+
+            //print(BrocoloOuCenoura);
+
+            if(BrocoloOuCenoura == 0)
+            {
+                listBrocolos[randomNumber].SetActive(true);
+            }
+            else
+            {
+                listCenouras[randomNumber].SetActive(true);
+            }
         }
     }
 }
