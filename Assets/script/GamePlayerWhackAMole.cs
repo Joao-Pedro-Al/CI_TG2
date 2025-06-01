@@ -37,9 +37,19 @@ public class GamePlayer : MonoBehaviour
     private List<GameObject> listCenouras;
 
     [SerializeField]
+    private List<GameObject> listBatatas;
+
+    [SerializeField]
+    private List<GameObject> listHamburgers;
+
+    [SerializeField]
     private TMP_Text timerText;
 
     private float currentTimer;
+
+    private int randomNumberVegetais;
+
+    private int randomNumberFritos;
 
     private System.Random randomNumberGenerator;
 
@@ -48,7 +58,8 @@ public class GamePlayer : MonoBehaviour
         randomNumberGenerator = new System.Random();
         currentTimer = 0;
         StartCoroutine(ChangeVegetal());
-        print(difi);
+        StartCoroutine(ChangeFrito());
+        //print(difi);
     }
 
     void Update()
@@ -77,18 +88,54 @@ public class GamePlayer : MonoBehaviour
             yield return new WaitForSeconds(timer);
             listBrocolos.ForEach(item => item.SetActive(false));
             listCenouras.ForEach(item => item.SetActive(false));
-            int randomNumber = randomNumberGenerator.Next(0, listBrocolos.Count);
+            //int randomNumber = randomNumberGenerator.Next(0, listBrocolos.Count);
+
+            do
+            {
+                randomNumberVegetais = randomNumberGenerator.Next(0, listBrocolos.Count);
+            }
+            while(randomNumberVegetais == randomNumberFritos);
+
             int BrocoloOuCenoura = randomNumberGenerator.Next(0, 2);
 
             //print(BrocoloOuCenoura);
 
             if(BrocoloOuCenoura == 0)
             {
-                listBrocolos[randomNumber].SetActive(true);
+                listBrocolos[randomNumberVegetais].SetActive(true);
             }
             else
             {
-                listCenouras[randomNumber].SetActive(true);
+                listCenouras[randomNumberVegetais].SetActive(true);
+            }
+        }
+    }
+
+    IEnumerator ChangeFrito()
+    {
+        while (currentTimer < matchTimer)
+        {
+            yield return new WaitForSeconds(timer);
+            listBatatas.ForEach(item => item.SetActive(false));
+            listHamburgers.ForEach(item => item.SetActive(false));
+
+            do
+            {
+                randomNumberFritos = randomNumberGenerator.Next(0, listBrocolos.Count);
+            }
+            while(randomNumberVegetais == randomNumberFritos);
+
+            int BatatasOuHamburger = randomNumberGenerator.Next(0, 2);
+
+            //print(BrocoloOuCenoura);
+
+            if(BatatasOuHamburger == 0)
+            {
+                listBatatas[randomNumberFritos].SetActive(true);
+            }
+            else
+            {
+                listHamburgers[randomNumberFritos].SetActive(true);
             }
         }
     }
