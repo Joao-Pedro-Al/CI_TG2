@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      seta_esquerda_informacoes_0: -3381378360403156975
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

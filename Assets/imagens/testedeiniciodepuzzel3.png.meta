@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: a6d3102ba828c144cb0f32dccc6430c7
+guid: 5bcd561cd25367a4a9ff12441cc96368
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8929003294744930159
-    second: prato_0
+      213: -7191524735917762968
+    second: testedeiniciodepuzzel3_0
+  - first:
+      213: 6624529348513538547
+    second: testedeiniciodepuzzel3_1
+  - first:
+      213: 8834740833131412968
+    second: testedeiniciodepuzzel3_2
+  - first:
+      213: 494183594624113130
+    second: testedeiniciodepuzzel3_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: prato_0
+      name: testedeiniciodepuzzel3_0
       rect:
         serializedVersion: 2
-        x: 85
-        y: 184
-        width: 846
-        height: 414
+        x: 556
+        y: 496
+        width: 180
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f67609d40313aeb70800000000000000
-      internalID: 8929003294744930159
+      spriteID: 866df22ea52923c90800000000000000
+      internalID: -7191524735917762968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testedeiniciodepuzzel3_1
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 388
+        width: 350
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1ac4e185e0feb50800000000000000
+      internalID: 6624529348513538547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testedeiniciodepuzzel3_2
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 274
+        width: 526
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edbf61bafd4b9a70800000000000000
+      internalID: 8834740833131412968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: testedeiniciodepuzzel3_3
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 149
+        width: 714
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9556b6c51bbd600800000000000000
+      internalID: 494183594624113130
       vertices: []
       indices: 
       edges: []
@@ -147,8 +222,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      prato_0: 8929003294744930159
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

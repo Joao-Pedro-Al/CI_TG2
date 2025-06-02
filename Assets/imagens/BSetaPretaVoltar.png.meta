@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a6d3102ba828c144cb0f32dccc6430c7
+guid: 9799e1a5c89d2a24a9ec560226738d45
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8929003294744930159
-    second: prato_0
+      213: 453185277447591006
+    second: BSetaPretaVoltar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: prato_0
+      name: BSetaPretaVoltar_0
       rect:
         serializedVersion: 2
-        x: 85
-        y: 184
-        width: 846
-        height: 414
+        x: 328
+        y: 361
+        width: 440
+        height: 307
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f67609d40313aeb70800000000000000
-      internalID: 8929003294744930159
+      spriteID: e5453b7db990a4600800000000000000
+      internalID: 453185277447591006
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      prato_0: 8929003294744930159
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
