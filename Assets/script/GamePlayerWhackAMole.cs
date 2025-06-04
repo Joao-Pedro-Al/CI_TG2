@@ -8,7 +8,7 @@ public class GamePlayer : MonoBehaviour
 {
     private int difi = GameManager.DifiAtual();
 
-    [Range(0, 2)]
+    //[Range(0, 2)]
     [SerializeField]
     private int timer;
 
@@ -47,19 +47,38 @@ public class GamePlayer : MonoBehaviour
 
     private float currentTimer;
 
-    private int randomNumberVegetais;
+    private int randomNumberVegetais1;
+    private int randomNumberVegetais2;
 
-    private int randomNumberFritos;
+    private int randomNumberFritos1;
+    private int randomNumberFritos2;
+
+    private int boracoAtengido;
 
     private System.Random randomNumberGenerator;
 
     void Start()
     {
+
         randomNumberGenerator = new System.Random();
         currentTimer = 0;
         StartCoroutine(ChangeVegetal());
         StartCoroutine(ChangeFrito());
         //print(difi);
+
+        switch(difi){
+        case 0:
+            timer = 2;
+            break;
+
+        case 1:
+            timer = 1;
+            break;
+
+        case 2:
+            timer = 1;
+            break;
+        }
     }
 
     void Update()
@@ -74,11 +93,17 @@ public class GamePlayer : MonoBehaviour
             SceneManager.LoadScene("FinalSceneWhackAMole");
         }
 
+        boracoAtengido = GameManager.Desativar();
+
         currentTimer += Time.deltaTime;
 
         float NumberOfSeconds = matchTimer - currentTimer;
         float seconds = Mathf.FloorToInt(NumberOfSeconds % 60);
         timerText.text = $"{seconds:00}";
+
+        if(boracoAtengido != -1){
+            ObjectHit();
+        }
     }
 
     IEnumerator ChangeVegetal()
@@ -92,21 +117,34 @@ public class GamePlayer : MonoBehaviour
 
             do
             {
-                randomNumberVegetais = randomNumberGenerator.Next(0, listBrocolos.Count);
+                randomNumberVegetais1 = randomNumberGenerator.Next(0, listBrocolos.Count);
+                randomNumberVegetais2 = randomNumberGenerator.Next(0, listBrocolos.Count);
             }
-            while(randomNumberVegetais == randomNumberFritos);
+            while(randomNumberVegetais1 == randomNumberFritos1 || randomNumberVegetais2 == randomNumberFritos1 || randomNumberVegetais1 == randomNumberFritos2 || randomNumberVegetais2 == randomNumberFritos2 || randomNumberVegetais1 == randomNumberVegetais2);
 
-            int BrocoloOuCenoura = randomNumberGenerator.Next(0, 2);
+            int BrocoloOuCenoura1 = randomNumberGenerator.Next(0, 2);
+            int BrocoloOuCenoura2 = randomNumberGenerator.Next(0, 2);
 
             //print(BrocoloOuCenoura);
 
-            if(BrocoloOuCenoura == 0)
+            if(BrocoloOuCenoura1 == 0)
             {
-                listBrocolos[randomNumberVegetais].SetActive(true);
+                listBrocolos[randomNumberVegetais1].SetActive(true);
             }
             else
             {
-                listCenouras[randomNumberVegetais].SetActive(true);
+                listCenouras[randomNumberVegetais1].SetActive(true);
+            }
+
+            if(difi == 0){
+                if(BrocoloOuCenoura2 == 0)
+                {
+                    listBrocolos[randomNumberVegetais2].SetActive(true);
+                }
+                else
+                {
+                    listCenouras[randomNumberVegetais2].SetActive(true);
+                }
             }
         }
     }
@@ -121,22 +159,72 @@ public class GamePlayer : MonoBehaviour
 
             do
             {
-                randomNumberFritos = randomNumberGenerator.Next(0, listBrocolos.Count);
+                randomNumberFritos1 = randomNumberGenerator.Next(0, listBrocolos.Count);
+                randomNumberFritos2 = randomNumberGenerator.Next(0, listBrocolos.Count);
             }
-            while(randomNumberVegetais == randomNumberFritos);
+            while(randomNumberVegetais1 == randomNumberFritos1 || randomNumberVegetais2 == randomNumberFritos1 || randomNumberVegetais1 == randomNumberFritos2 || randomNumberVegetais2 == randomNumberFritos2 || randomNumberFritos1 == randomNumberFritos2);
 
-            int BatatasOuHamburger = randomNumberGenerator.Next(0, 2);
+            int BatatasOuHamburger1 = randomNumberGenerator.Next(0, 2);
+            int BatatasOuHamburger2 = randomNumberGenerator.Next(0, 2);
 
             //print(BrocoloOuCenoura);
 
-            if(BatatasOuHamburger == 0)
+            if(BatatasOuHamburger1 == 0)
             {
-                listBatatas[randomNumberFritos].SetActive(true);
+                listBatatas[randomNumberFritos1].SetActive(true);
             }
             else
             {
-                listHamburgers[randomNumberFritos].SetActive(true);
+                listHamburgers[randomNumberFritos1].SetActive(true);
+            }
+
+            if(difi == 2){
+                if(BatatasOuHamburger2 == 0)
+                {
+                    listBatatas[randomNumberFritos2].SetActive(true);
+                }
+                else
+                {
+                    listHamburgers[randomNumberFritos2].SetActive(true);
+                }
             }
         }
+    }
+
+    // void ObjectHit(int boraco, int tipo) //Ideia: Adicionar lista ao script hit para saber qual boraco foi
+    // {
+    //     if(tipo == 1){
+    //         if (boraco == randomNumberVegetais1){
+    //             listBrocolos[randomNumberVegetais1].SetActive(false);
+    //             listCenouras[randomNumberVegetais1].SetActive(false);
+    //         }
+    //         else{
+    //             listBrocolos[randomNumberVegetais2].SetActive(false);
+    //             listCenouras[randomNumberVegetais2].SetActive(false);
+    //         }
+    //     }
+
+    //     else{
+    //         if (boraco == randomNumberFritos1){
+    //             listBatatas[randomNumberFritos1].SetActive(false);
+    //             listHamburgers[randomNumberFritos1].SetActive(false);
+    //         }
+    //         else{
+    //             listBatatas[randomNumberFritos2].SetActive(false);
+    //             listHamburgers[randomNumberFritos2].SetActive(false);
+    //         }
+    //     }
+    // }
+
+    public void ObjectHit()
+    {
+        //int boraco = GameManager.Desativar();
+
+        print(boracoAtengido + " - GamePlayer");
+
+        listBrocolos[boracoAtengido].SetActive(false);
+        listCenouras[boracoAtengido].SetActive(false);
+        listBatatas[boracoAtengido].SetActive(false);
+        listHamburgers[boracoAtengido].SetActive(false);
     }
 }

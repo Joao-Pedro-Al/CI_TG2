@@ -8,23 +8,49 @@ public class GameManager : MonoBehaviour
     //0 = Fácil, 1 = Médio, 2 = Difícil
     public static int dificuldade = 0;
 
+    public static int boracoAtengido = 0;
+
+    public static int Atingido = 0;
+
     public static void SetDificuldade(int x){
         dificuldade = x;
     }
 
 
-    public static void Acertou()
+    public static void Acertou(int boraco)
     {
         score++;
+        boracoAtengido = boraco;
+        Atingido = 1;
     }
 
-    public static void Errou()
+    public static void Errou(int boraco)
     {
         if (dificuldade == 2){
             score = score - 2;
         }
         else{
             score--;
+        }
+        boracoAtengido = boraco;
+        Atingido = 1;
+    }
+
+    public static void setDesativar(int boraco)
+    {
+        boracoAtengido = boraco;
+    }
+
+    public static int Desativar()
+    {
+        if(Atingido == 0)
+        {
+            return -1;
+        }
+        else
+        {
+            Atingido = 0;
+            return boracoAtengido;
         }
     }
 
