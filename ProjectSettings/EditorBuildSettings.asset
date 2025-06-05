@@ -50,6 +50,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinalScenePuzzelNV3.unity
     guid: 8d384919768d85642bef2290de133d55
+  - enabled: 1
+    path: Assets/Scenes/instrucoesPuzzel.unity
+    guid: 6fcebc9403dac8b46880a9621fae24f9
+  - enabled: 1
+    path: Assets/Scenes/Menudecozinhaetablet.unity
+    guid: 5d7ea7c2a0076674ba191268aa914443
+  - enabled: 1
+    path: Assets/Scenes/2PaginadeaprenderdePiramideAlimentar.unity
+    guid: f90c3bd8af6432f47947ca0ccfcda425
+  - enabled: 1
+    path: Assets/Scenes/1PaginadeaprenderdePiramideAlimentar.unity
+    guid: b5997ea361ae93c4eada4210f6e730b3
+  - enabled: 1
+    path: Assets/Scenes/3PaginadeaprenderdePiramideAlimentar.unity
+    guid: 0d8fe2c3584413d458b7629159b480d8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
