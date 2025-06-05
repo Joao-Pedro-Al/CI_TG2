@@ -20,7 +20,7 @@ public class FinalSceneManagerPuzzelNV2 : MonoBehaviour
     public void TestAgain() 
     { 
         GameManagerPuzzelNV2.Reset(); 
-        SceneManager.LoadScene("MainScene"); 
+        SceneManager.LoadScene("menuNIveisPuzzel"); 
     } 
 }
 
