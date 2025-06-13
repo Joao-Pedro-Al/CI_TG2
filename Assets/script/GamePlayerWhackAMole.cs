@@ -9,22 +9,7 @@ public class GamePlayer : MonoBehaviour
     private int difi = GameManager.DifiAtual();
 
     //[Range(0, 2)]
-    [SerializeField]
     private int timer;
-
-    /*switch(difi){
-        case 0:
-            timer = 3;
-            break;
-
-        case 1:
-            timer = 2;
-            break;
-        
-        case 2:
-            timer = 1;
-            break;
-    }*/
 
     [Range(0, 30)]
     [SerializeField]
@@ -191,36 +176,11 @@ public class GamePlayer : MonoBehaviour
         }
     }
 
-    // void ObjectHit(int boraco, int tipo) //Ideia: Adicionar lista ao script hit para saber qual boraco foi
-    // {
-    //     if(tipo == 1){
-    //         if (boraco == randomNumberVegetais1){
-    //             listBrocolos[randomNumberVegetais1].SetActive(false);
-    //             listCenouras[randomNumberVegetais1].SetActive(false);
-    //         }
-    //         else{
-    //             listBrocolos[randomNumberVegetais2].SetActive(false);
-    //             listCenouras[randomNumberVegetais2].SetActive(false);
-    //         }
-    //     }
-
-    //     else{
-    //         if (boraco == randomNumberFritos1){
-    //             listBatatas[randomNumberFritos1].SetActive(false);
-    //             listHamburgers[randomNumberFritos1].SetActive(false);
-    //         }
-    //         else{
-    //             listBatatas[randomNumberFritos2].SetActive(false);
-    //             listHamburgers[randomNumberFritos2].SetActive(false);
-    //         }
-    //     }
-    // }
-
     public void ObjectHit()
     {
         //int boraco = GameManager.Desativar();
 
-        print(boracoAtengido + " - GamePlayer");
+        //print(boracoAtengido + " - GamePlayer");
 
         listBrocolos[boracoAtengido].SetActive(false);
         listCenouras[boracoAtengido].SetActive(false);
