@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 0695e9a5348a50d408f92c1e50db4f50
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8783321454014330445
+    second: TiposVegetais_0
+  - first:
+      213: 8803101696241408252
+    second: TiposVegetais_1
+  - first:
+      213: 1079133390987821856
+    second: TiposVegetais_2
+  - first:
+      213: 878276005041700618
+    second: TiposVegetais_3
+  - first:
+      213: 4441732797512485060
+    second: TiposVegetais_4
+  - first:
+      213: -5605480536915274389
+    second: TiposVegetais_5
+  - first:
+      213: -154657924563288773
+    second: TiposVegetais_6
+  - first:
+      213: 13515506778402801
+    second: TiposVegetais_7
+  - first:
+      213: -7706837881641939409
+    second: TiposVegetais_8
+  - first:
+      213: -6740555237630401354
+    second: TiposVegetais_9
+  - first:
+      213: 4875287698218312267
+    second: TiposVegetais_10
+  - first:
+      213: -2384141490474055338
+    second: TiposVegetais_11
+  - first:
+      213: 6514060030365433794
+    second: TiposVegetais_12
+  - first:
+      213: -7347712738900127159
+    second: TiposVegetais_13
+  - first:
+      213: 9048264939650429798
+    second: TiposVegetais_14
+  - first:
+      213: 1078314429116022123
+    second: TiposVegetais_15
+  - first:
+      213: 4284115217506417428
+    second: TiposVegetais_16
+  - first:
+      213: -1853448383491634480
+    second: TiposVegetais_17
+  - first:
+      213: -3694451173630549477
+    second: TiposVegetais_18
+  - first:
+      213: 7530138052906120499
+    second: TiposVegetais_19
+  - first:
+      213: -4852517112226998056
+    second: TiposVegetais_20
+  - first:
+      213: -58757708068811024
+    second: TiposVegetais_21
+  - first:
+      213: -8130131640945755372
+    second: TiposVegetais_22
+  - first:
+      213: -8065108991595522978
+    second: TiposVegetais_23
+  - first:
+      213: 8833592276899967198
+    second: TiposVegetais_24
+  - first:
+      213: 6618527194862526874
+    second: TiposVegetais_25
+  - first:
+      213: -7241415877051310681
+    second: TiposVegetais_26
+  - first:
+      213: 3734717209452903880
+    second: TiposVegetais_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TiposVegetais_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 469
+        width: 84
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46779e8350a4e970800000000000000
+      internalID: 8783321454014330445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 527
+        width: 102
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf89b161a56ea2a70800000000000000
+      internalID: 8803101696241408252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 491
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02387130a1ad9fe00800000000000000
+      internalID: 1079133390987821856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_3
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 485
+        width: 135
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f724f8f53403c00800000000000000
+      internalID: 878276005041700618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_4
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 442
+        width: 130
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c80fee227434ad30800000000000000
+      internalID: 4441732797512485060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_5
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 517
+        width: 104
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b659cc996255532b0800000000000000
+      internalID: -5605480536915274389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_6
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 496
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3db4b0ef6b8addf0800000000000000
+      internalID: -154657924563288773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_7
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 474
+        width: 132
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff6c742844003000800000000000000
+      internalID: 13515506778402801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 303
+        width: 86
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e453b77cfcb0590800000000000000
+      internalID: -7706837881641939409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_9
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 367
+        width: 126
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4242079bcb472a0800000000000000
+      internalID: -6740555237630401354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_10
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 340
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b426226c45088a340800000000000000
+      internalID: 4875287698218312267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_11
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 342
+        width: 119
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659060632f3d9eed0800000000000000
+      internalID: -2384141490474055338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_12
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 328
+        width: 183
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf708ba517966a50800000000000000
+      internalID: 6514060030365433794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_13
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 375
+        width: 85
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942de3e913ea70a90800000000000000
+      internalID: -7347712738900127159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_14
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 358
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6633c79d505e19d70800000000000000
+      internalID: 9048264939650429798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_15
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 328
+        width: 121
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d73a79241f6fe00800000000000000
+      internalID: 1078314429116022123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 152
+        width: 67
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bb054971c347b30800000000000000
+      internalID: 4284115217506417428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_17
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 201
+        width: 138
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da8574e38a3746e0800000000000000
+      internalID: -1853448383491634480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_18
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 172
+        width: 59
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12e9bb4b3caabcc0800000000000000
+      internalID: -3694451173630549477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 164
+        width: 112
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335fe19a9ac608860800000000000000
+      internalID: 7530138052906120499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_20
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 147
+        width: 64
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8943b656568acb0800000000000000
+      internalID: -4852517112226998056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_21
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 210
+        width: 126
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe0eb20d204f2ff0800000000000000
+      internalID: -58757708068811024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_22
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 184
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bb34c0958fb2f80800000000000000
+      internalID: -8130131640945755372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_23
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 155
+        width: 137
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54d3295a1af21090800000000000000
+      internalID: -8065108991595522978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_24
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 24
+        width: 99
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0b14b9f59379a70800000000000000
+      internalID: 8833592276899967198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_25
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 65
+        width: 131
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a912b02da6bb9db50800000000000000
+      internalID: 6618527194862526874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_26
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 47
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad9b7160a2518b90800000000000000
+      internalID: -7241415877051310681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TiposVegetais_27
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 16
+        width: 85
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd7afdb38164d330800000000000000
+      internalID: 3734717209452903880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TiposVegetais_0: 8783321454014330445
+      TiposVegetais_1: 8803101696241408252
+      TiposVegetais_10: 4875287698218312267
+      TiposVegetais_11: -2384141490474055338
+      TiposVegetais_12: 6514060030365433794
+      TiposVegetais_13: -7347712738900127159
+      TiposVegetais_14: 9048264939650429798
+      TiposVegetais_15: 1078314429116022123
+      TiposVegetais_16: 4284115217506417428
+      TiposVegetais_17: -1853448383491634480
+      TiposVegetais_18: -3694451173630549477
+      TiposVegetais_19: 7530138052906120499
+      TiposVegetais_2: 1079133390987821856
+      TiposVegetais_20: -4852517112226998056
+      TiposVegetais_21: -58757708068811024
+      TiposVegetais_22: -8130131640945755372
+      TiposVegetais_23: -8065108991595522978
+      TiposVegetais_24: 8833592276899967198
+      TiposVegetais_25: 6618527194862526874
+      TiposVegetais_26: -7241415877051310681
+      TiposVegetais_27: 3734717209452903880
+      TiposVegetais_3: 878276005041700618
+      TiposVegetais_4: 4441732797512485060
+      TiposVegetais_5: -5605480536915274389
+      TiposVegetais_6: -154657924563288773
+      TiposVegetais_7: 13515506778402801
+      TiposVegetais_8: -7706837881641939409
+      TiposVegetais_9: -6740555237630401354
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

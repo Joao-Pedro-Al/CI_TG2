@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/menuNIveisPuzzel.unity
     guid: bf98c48540964cc469ced8460158ffc6
   - enabled: 1
-    path: Assets/Scenes/menupuzzel.unity
+    path: Assets/Scenes/menuPuzzel.unity
     guid: a45aac83a38713847b4550ea444c9a25
   - enabled: 1
     path: Assets/Scenes/quiz.unity
@@ -57,6 +57,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menudecozinhaetablet.unity
     guid: 5d7ea7c2a0076674ba191268aa914443
   - enabled: 1
+    path: Assets/Scenes/MenuAprender.unity
+    guid: 97af89308d6ef444bab6a754608c729f
+  - enabled: 1
     path: Assets/Scenes/2PaginadeaprenderdePiramideAlimentar.unity
     guid: f90c3bd8af6432f47947ca0ccfcda425
   - enabled: 1
@@ -65,6 +68,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3PaginadeaprenderdePiramideAlimentar.unity
     guid: 0d8fe2c3584413d458b7629159b480d8
+  - enabled: 1
+    path: Assets/Scenes/VegetaisAprender_Pag1.unity
+    guid: d0209f650b914454aa9b757f72fbbb8d
+  - enabled: 1
+    path: Assets/Scenes/VegetaisAprender_Pag2.unity
+    guid: a7686eae23e742b4d8ed1a2919a33bc2
+  - enabled: 1
+    path: Assets/Scenes/VegetaisAprender_Pag3.unity
+    guid: f003aa2b184de0f48a05a52d3aee0449
+  - enabled: 1
+    path: Assets/Scenes/VegetaisAprender_Pag4.unity
+    guid: 1c43c662fec1931469f67b185e481e0b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
