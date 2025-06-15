@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fee5913bc7041aa45a982db170273c3c
+guid: 1b1f0c8f0488c4c419b3b624bd1c94f4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1874348100865791513
-    second: testedeiniciodepuzzel1_0
+      213: 3409196889831993428
+    second: iconeerrado 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: testedeiniciodepuzzel1_0
+      name: iconeerrado 1_0
       rect:
         serializedVersion: 2
-        x: 49
+        x: 0
         y: 0
-        width: 714
-        height: 461
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e9677e355afcf5e0800000000000000
-      internalID: -1874348100865791513
+      spriteID: 4507dc33286ef4f20800000000000000
+      internalID: 3409196889831993428
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      testedeiniciodepuzzel1_0: -1874348100865791513
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

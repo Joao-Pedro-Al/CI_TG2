@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      testedeiniciodepuzzel3_0: -7191524735917762968
+      testedeiniciodepuzzel3_1: 6624529348513538547
+      testedeiniciodepuzzel3_2: 8834740833131412968
+      testedeiniciodepuzzel3_3: 494183594624113130
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

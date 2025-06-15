@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BPlaybranco_0: 4006049061792610777
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BSetaPretaVoltar_0: 453185277447591006
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
