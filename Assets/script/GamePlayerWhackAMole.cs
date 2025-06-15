@@ -70,13 +70,20 @@ public class GamePlayer : MonoBehaviour
     {
         if(currentTimer > matchTimer)
         {
-            SceneManager.LoadScene("FinalSceneWhackAMole");
+            if(GameManager.Resultado() < 10)
+            {
+                SceneManager.LoadScene("FinalSceneWhackAMolePerdeu");
+            }
+            else
+            {
+                SceneManager.LoadScene("FinalSceneWhackAMole");
+            }
         }
 
-        if(GameManager.Resultado() < 0)
-        {
-            SceneManager.LoadScene("FinalSceneWhackAMole");
-        }
+        // if(GameManager.Resultado() < 0)
+        // {
+        //     SceneManager.LoadScene("FinalSceneWhackAMole");
+        // }
 
         boracoAtengido = GameManager.Desativar();
 

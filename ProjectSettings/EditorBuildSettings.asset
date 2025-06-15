@@ -45,6 +45,9 @@ EditorBuildSettings:
     path: Assets/Scenes/FinalSceneWhackAMole.unity
     guid: 0d396b00a1ab252409de2afb25fd7d9a
   - enabled: 1
+    path: Assets/Scenes/FinalSceneWhackAMolePerdeu.unity
+    guid: ba0952a85e170c543b24dd35da0673f5
+  - enabled: 1
     path: Assets/Scenes/Nivel3Puzzel.unity
     guid: 94f020a416f63324ba66af40eefefa52
   - enabled: 1
