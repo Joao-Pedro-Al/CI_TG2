@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gelado-removebg-preview_0: -4946776121791650154
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

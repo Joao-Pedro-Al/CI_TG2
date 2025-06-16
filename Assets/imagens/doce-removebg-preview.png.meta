@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      doce-removebg-preview_0: 1098347600898518552
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

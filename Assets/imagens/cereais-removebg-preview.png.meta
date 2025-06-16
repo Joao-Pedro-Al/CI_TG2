@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cereais-removebg-preview_0: 6339321255763929652
+      cereais-removebg-preview_1: -180968758383005100
+      cereais-removebg-preview_2: 8029290802502433378
+      cereais-removebg-preview_3: -6786452697530318881
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

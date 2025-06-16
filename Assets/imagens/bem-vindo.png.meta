@@ -147,12 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< HEAD
     nameFileIdTable:
       bem-vindo_0: 3167033260032223310
-=======
-    nameFileIdTable: {}
->>>>>>> 0bf1e26d79a44d9372cb8ae3b1d7682f0746da80
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fiambre-removebg-preview_0: -2162109444679741774
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FundoQuiz_0: -5454410444702440913
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -4,77 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-<<<<<<< HEAD
-  m_Scenes: []
-  m_configObjects: {}
-=======
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/bemvindo.unity
+    guid: 4b739a2b5a291014dba154d0d3495a47
   - enabled: 1
     path: Assets/Scenes/Nivel1Puzzel.unity
     guid: 621fcaa99a9e8c548a01273e849bac5b
   - enabled: 1
-    path: Assets/Scenes/FinalScenePuzzelNV1.unity
-    guid: ecf8b74ca88a3664983b4e6e79976b75
-  - enabled: 1
-    path: Assets/Scenes/menuNIveisPuzzel.unity
-    guid: bf98c48540964cc469ced8460158ffc6
-  - enabled: 1
-    path: Assets/Scenes/menupuzzel.unity
-    guid: a45aac83a38713847b4550ea444c9a25
-  - enabled: 1
-    path: Assets/Scenes/quiz.unity
-    guid: 31ebf8962e8ba91428e03020ce5ed14f
-  - enabled: 1
     path: Assets/Scenes/Nivel2Puzzel.unity
     guid: 8cf541172fee25b4493d9c079a2ab33a
-  - enabled: 1
-    path: Assets/Scenes/FinalScenePuzzelNV2.unity
-    guid: 2d851c79b33b5b44bb89e6975ba59ef3
-  - enabled: 1
-    path: Assets/Scenes/InicioWhackAMole.unity
-    guid: 72b46c701e5beda41aedf0c5d5c03ede
-  - enabled: 1
-    path: Assets/Scenes/InstrucoesWhackAMole.unity
-    guid: 91cf0b4a005166342a10475b9a032d68
-  - enabled: 1
-    path: Assets/Scenes/DificuldadeWhackAMole.unity
-    guid: acf90c5ddac707a4bbc017777368df7d
-  - enabled: 1
-    path: Assets/Scenes/GameSceneWhackAMole.unity
-    guid: 99b85094532d9f8439ca0b86c5754b2c
-  - enabled: 1
-    path: Assets/Scenes/FinalSceneWhackAMole.unity
-    guid: 0d396b00a1ab252409de2afb25fd7d9a
-  - enabled: 1
-    path: Assets/Scenes/FinalSceneWhackAMolePerdeu.unity
-    guid: ba0952a85e170c543b24dd35da0673f5
   - enabled: 1
     path: Assets/Scenes/Nivel3Puzzel.unity
     guid: 94f020a416f63324ba66af40eefefa52
   - enabled: 1
-    path: Assets/Scenes/FinalScenePuzzelNV3.unity
-    guid: 8d384919768d85642bef2290de133d55
-  - enabled: 1
-    path: Assets/Scenes/instrucoesPuzzel.unity
-    guid: 6fcebc9403dac8b46880a9621fae24f9
-  - enabled: 1
-    path: Assets/Scenes/Menudecozinhaetablet.unity
-    guid: 5d7ea7c2a0076674ba191268aa914443
-  - enabled: 1
-    path: Assets/Scenes/MenuAprender.unity
-    guid: 97af89308d6ef444bab6a754608c729f
-  - enabled: 1
-    path: Assets/Scenes/2PaginadeaprenderdePiramideAlimentar.unity
-    guid: f90c3bd8af6432f47947ca0ccfcda425
-  - enabled: 1
-    path: Assets/Scenes/1PaginadeaprenderdePiramideAlimentar.unity
-    guid: b5997ea361ae93c4eada4210f6e730b3
-  - enabled: 1
-    path: Assets/Scenes/3PaginadeaprenderdePiramideAlimentar.unity
-    guid: 0d8fe2c3584413d458b7629159b480d8
+    path: Assets/Scenes/quiz.unity
+    guid: 31ebf8962e8ba91428e03020ce5ed14f
   - enabled: 1
     path: Assets/Scenes/VegetaisAprender_Pag1.unity
     guid: d0209f650b914454aa9b757f72fbbb8d
@@ -88,9 +33,133 @@ EditorBuildSettings:
     path: Assets/Scenes/VegetaisAprender_Pag4.unity
     guid: 1c43c662fec1931469f67b185e481e0b
   - enabled: 1
-    path: Assets/Scenes/bemvindo.unity
-    guid: 4b739a2b5a291014dba154d0d3495a47
-  m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
->>>>>>> 0bf1e26d79a44d9372cb8ae3b1d7682f0746da80
+    path: Assets/Scenes/MenuQuiz.unity
+    guid: 26589a2c5ef8dfa4e903d442203af8f8
+  - enabled: 1
+    path: Assets/Scenes/menupuzzel.unity
+    guid: a45aac83a38713847b4550ea444c9a25
+  - enabled: 1
+    path: Assets/Scenes/menuNIveisPuzzel.unity
+    guid: bf98c48540964cc469ced8460158ffc6
+  - enabled: 1
+    path: Assets/Scenes/Menudecozinhaetablet.unity
+    guid: 5d7ea7c2a0076674ba191268aa914443
+  - enabled: 1
+    path: "Assets/Scenes/MenuAprenderPequenoalmo\xE7o2.unity"
+    guid: f04c865398a744d4a909dcba4989ab16
+  - enabled: 1
+    path: "Assets/Scenes/MenuAprenderPequenoalmo\xE7o.unity"
+    guid: f6e66f1caa37b4e4f967e0d7bc14fea9
+  - enabled: 1
+    path: Assets/Scenes/MenuAprender.unity
+    guid: 97af89308d6ef444bab6a754608c729f
+  - enabled: 1
+    path: Assets/Scenes/MedioQuiz6.unity
+    guid: 556748d93880fc744bb76cd5227cf525
+  - enabled: 1
+    path: Assets/Scenes/MedioQuiz5.unity
+    guid: 871fbebb9bf7a1c4589a4cc42848d46c
+  - enabled: 1
+    path: Assets/Scenes/MedioQuiz4.unity
+    guid: 8a127258a7660e14ca2bc12ead4872da
+  - enabled: 1
+    path: Assets/Scenes/MedioQuiz3.unity
+    guid: 635a214cf2504d04090049a07c7e7dc7
+  - enabled: 1
+    path: Assets/Scenes/MedioQuiz2.unity
+    guid: 887b450cf0431e14c8975eba1aab438d
+  - enabled: 1
+    path: Assets/Scenes/MedioQuiz1.unity
+    guid: 7182c7b0df2c1a74183cef290df78893
+  - enabled: 1
+    path: "Assets/Scenes/JogoDaMemoriaInstru\xE7\xF5es.unity"
+    guid: a201a3c5e8475aa4b88a4810f5e91501
+  - enabled: 1
+    path: Assets/Scenes/JogoDaMemoria.unity
+    guid: f03312d9de061fa4ebcac0459608daff
+  - enabled: 1
+    path: Assets/Scenes/InstrucoesWhackAMole.unity
+    guid: 91cf0b4a005166342a10475b9a032d68
+  - enabled: 1
+    path: Assets/Scenes/instrucoesPuzzel.unity
+    guid: 6fcebc9403dac8b46880a9621fae24f9
+  - enabled: 1
+    path: Assets/Scenes/GameSceneWhackAMole.unity
+    guid: 99b85094532d9f8439ca0b86c5754b2c
+  - enabled: 1
+    path: Assets/Scenes/InicioWhackAMole.unity
+    guid: 72b46c701e5beda41aedf0c5d5c03ede
+  - enabled: 1
+    path: Assets/Scenes/FinalSceneWhackAMolePerdeu.unity
+    guid: ba0952a85e170c543b24dd35da0673f5
+  - enabled: 1
+    path: Assets/Scenes/FinalSceneWhackAMole.unity
+    guid: 0d396b00a1ab252409de2afb25fd7d9a
+  - enabled: 1
+    path: Assets/Scenes/FinalSceneQuiz.unity
+    guid: ecf8b74ca88a3664983b4e6e79976b75
+  - enabled: 1
+    path: Assets/Scenes/FinalScenePuzzelNV3.unity
+    guid: 8d384919768d85642bef2290de133d55
+  - enabled: 1
+    path: Assets/Scenes/FinalScenePuzzelNV2.unity
+    guid: 2d851c79b33b5b44bb89e6975ba59ef3
+  - enabled: 1
+    path: Assets/Scenes/FinalScenePuzzelNV1.unity
+    guid: cdba5ca12d135c24ca8925e3a7e66c0b
+  - enabled: 1
+    path: Assets/Scenes/FacilQuiz3.unity
+    guid: 9f5cc0e3ef6356b41a1732162899c625
+  - enabled: 1
+    path: Assets/Scenes/FacilQuiz2.unity
+    guid: 731ee9f4418e1854e8a469bf4ab797e0
+  - enabled: 1
+    path: Assets/Scenes/FacilQuiz1.unity
+    guid: b16e0d0aa70ac8e46ab1440c0d19daee
+  - enabled: 1
+    path: Assets/Scenes/DificuldadeWhackAMole.unity
+    guid: acf90c5ddac707a4bbc017777368df7d
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz10.unity
+    guid: 33c64b4814eb2a747a77c78fb379a4c8
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz9.unity
+    guid: a842da3220f449b4fa4cb0c55b18f2dc
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz8.unity
+    guid: 432d95ace68e97b42a1a2aad160298be
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz7.unity
+    guid: 52f43790618961441b60f0d8371c5f6d
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz6.unity
+    guid: 4588166fa7b179e4e948113faa0685de
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz5.unity
+    guid: dd303c58d73930c4090de9f8b8718363
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz4.unity
+    guid: f30263756838e374a93f417f057dd950
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz3.unity
+    guid: 3e3de884c5271b344ab3d136dd3209ed
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz1.unity
+    guid: 528859aacd1a23b45945623056c09482
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz2.unity
+    guid: 1d2530972ba91e44c821f66a976a9515
+  - enabled: 1
+    path: Assets/Scenes/BasePaginaAprender.unity
+    guid: ae90f13216433ad41a4c4f706371e089
+  - enabled: 1
+    path: Assets/Scenes/3PaginadeaprenderdePiramideAlimentar.unity
+    guid: 0d8fe2c3584413d458b7629159b480d8
+  - enabled: 1
+    path: Assets/Scenes/2PaginadeaprenderdePiramideAlimentar.unity
+    guid: f90c3bd8af6432f47947ca0ccfcda425
+  - enabled: 1
+    path: Assets/Scenes/1PaginadeaprenderdePiramideAlimentar.unity
+    guid: b5997ea361ae93c4eada4210f6e730b3
+  m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
