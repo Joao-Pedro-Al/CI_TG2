@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Nivel1Puzzel.unity
     guid: 621fcaa99a9e8c548a01273e849bac5b
   - enabled: 1
-    path: Assets/Scenes/FinalScenePuzzelNV1.unity
+    path: Assets/Scenes/FinalSceneQuiz.unity
     guid: ecf8b74ca88a3664983b4e6e79976b75
   - enabled: 1
     path: Assets/Scenes/menuNIveisPuzzel.unity
@@ -83,6 +83,72 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VegetaisAprender_Pag4.unity
     guid: 1c43c662fec1931469f67b185e481e0b
+  - enabled: 1
+    path: Assets/Scenes/FacilQuiz1.unity
+    guid: b16e0d0aa70ac8e46ab1440c0d19daee
+  - enabled: 1
+    path: Assets/Scenes/MenuQuiz.unity
+    guid: 26589a2c5ef8dfa4e903d442203af8f8
+  - enabled: 1
+    path: Assets/Scenes/FacilQuiz2.unity
+    guid: 1ec4106800b1135409d03d1f5ff2089e
+  - enabled: 1
+    path: Assets/Scenes/MedioQuiz1.unity
+    guid: 7182c7b0df2c1a74183cef290df78893
+  - enabled: 1
+    path: Assets/Scenes/FacilQuiz3.unity
+    guid: 9f5cc0e3ef6356b41a1732162899c625
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz1.unity
+    guid: 528859aacd1a23b45945623056c09482
+  - enabled: 1
+    path: Assets/Scenes/MedioQuiz3.unity
+    guid: 635a214cf2504d04090049a07c7e7dc7
+  - enabled: 1
+    path: Assets/Scenes/MedioQuiz4.unity
+    guid: 8a127258a7660e14ca2bc12ead4872da
+  - enabled: 1
+    path: Assets/Scenes/MedioQuiz5.unity
+    guid: 871fbebb9bf7a1c4589a4cc42848d46c
+  - enabled: 1
+    path: Assets/Scenes/MedioQuiz6.unity
+    guid: 556748d93880fc744bb76cd5227cf525
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz2.unity
+    guid: 1d2530972ba91e44c821f66a976a9515
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz3.unity
+    guid: 3e3de884c5271b344ab3d136dd3209ed
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz6.unity
+    guid: 4588166fa7b179e4e948113faa0685de
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz5.unity
+    guid: dd303c58d73930c4090de9f8b8718363
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz8.unity
+    guid: 432d95ace68e97b42a1a2aad160298be
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz9.unity
+    guid: a842da3220f449b4fa4cb0c55b18f2dc
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz10.unity
+    guid: 33c64b4814eb2a747a77c78fb379a4c8
+  - enabled: 1
+    path: Assets/Scenes/MedioQuiz2.unity
+    guid: 887b450cf0431e14c8975eba1aab438d
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz4.unity
+    guid: f30263756838e374a93f417f057dd950
+  - enabled: 1
+    path: Assets/Scenes/DificilQuiz7.unity
+    guid: 52f43790618961441b60f0d8371c5f6d
+  - enabled: 1
+    path: "Assets/Scenes/MenuAprenderPequenoalmo\xE7o.unity"
+    guid: f6e66f1caa37b4e4f967e0d7bc14fea9
+  - enabled: 1
+    path: "Assets/Scenes/MenuAprenderPequenoalmo\xE7o2.unity"
+    guid: f04c865398a744d4a909dcba4989ab16
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

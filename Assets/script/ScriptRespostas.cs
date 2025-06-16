@@ -6,28 +6,36 @@ public class RespostaController : MonoBehaviour
     public TMP_Text textoCertas;
     public TMP_Text textoErradas;
 
-    private int respostasCertas = 0;
-    private int respostasErradas = 0;
+    void Start()
+    {
+        AtualizarTexto();
+    }
 
     public void RespostaCerta()
     {
-        respostasCertas++;
-        AtualizarTexto();
+        if (QuizGameManager.instance != null)
+        {
+            QuizGameManager.instance.AdicionarCerta();
+            AtualizarTexto();
+        }
     }
 
-    // Agora recebe qual botão errado foi clicado
-    public void RespostaErrada(BotaoTremor botaoQueTreme)
+    public void RespostaErrada()
     {
-        respostasErradas++;
-        AtualizarTexto();
-
-        // Só o botão clicado treme
-        botaoQueTreme.Tremer();
+        if (QuizGameManager.instance != null)
+        {
+            QuizGameManager.instance.AdicionarErrada();
+            AtualizarTexto();
+        }
     }
 
-    private void AtualizarTexto()
+    public void AtualizarTexto()
     {
-        textoCertas.text = respostasCertas.ToString();
-        textoErradas.text = respostasErradas.ToString();
+        if (QuizGameManager.instance != null)
+        {
+            textoCertas.text = QuizGameManager.instance.respostasCertas.ToString();
+            textoErradas.text = QuizGameManager.instance.respostasErradas.ToString();
+        }
     }
 }
+
