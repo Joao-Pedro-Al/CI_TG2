@@ -609,7 +609,7 @@ GameObject:
   - component: {fileID: 541077335}
   - component: {fileID: 541077334}
   m_Layer: 5
-  m_Name: VoltarMenucozinha
+  m_Name: VoltarMenuaprender
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -677,7 +677,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 541077335}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1782040672}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: ChangeSceneAction
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MenuAprender
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &541077335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1169,8 +1181,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 449, y: 273.00006}
-  m_SizeDelta: {x: 50, y: 50}
+  m_AnchoredPosition: {x: 469, y: 240}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1525586867
 MonoBehaviour:
@@ -1248,8 +1260,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -8808080165477265212, guid: 0d51957d45dc3b94ea9a51757a52384f, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1585,8 +1597,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8758c98a075e49343b06a7f0ed6763bb, type: 3}
-  m_Resource: {fileID: 8300000, guid: 8758c98a075e49343b06a7f0ed6763bb, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d00308d124fc57344b3ac181111a0382, type: 3}
+  m_Resource: {fileID: 8300000, guid: d00308d124fc57344b3ac181111a0382, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
