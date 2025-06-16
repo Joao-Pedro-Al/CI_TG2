@@ -257,8 +257,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Vegetais
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fe063734f7bef654281333f72ff258a1, type: 2}
-  m_sharedMaterial: {fileID: -776769702265679559, guid: fe063734f7bef654281333f72ff258a1, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -688,7 +688,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\xC9 importante saber balancear o consumo de calorias e regularmente consumir
-    legumes e frutas. Eles s\xE3o os melhores amigos do nosso corpo!"
+    vegetais e frutas. Eles s\xE3o os melhores amigos do nosso corpo!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -779,6 +779,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: MenuAprender
       objectReference: {fileID: 0}
+    - target: {fileID: 222339448430306380, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 617408267308970781, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: VegetaisAprender_Pag3
@@ -865,20 +869,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6980857318079521892, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6980857318079521892, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6980857318079521892, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 1010
       objectReference: {fileID: 0}
     - target: {fileID: 6980857318079521892, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -120
       objectReference: {fileID: 0}
+    - target: {fileID: 7163162386816402601, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 05a8f53eafdff2348adf06bafae05d7b, type: 3}
+    - target: {fileID: 7163162386816402601, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 05a8f53eafdff2348adf06bafae05d7b, type: 3}
     - target: {fileID: 8532891404552157160, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
       propertyPath: m_Name
       value: Canvas
