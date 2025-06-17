@@ -136,8 +136,32 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 617408267308970781, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 617408267308970781, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 617408267308970781, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1936719542}
+    - target: {fileID: 617408267308970781, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeSceneAction
+      objectReference: {fileID: 0}
+    - target: {fileID: 617408267308970781, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChangeScene, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 617408267308970781, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: FrutasAprender_Pag2
+      objectReference: {fileID: 0}
+    - target: {fileID: 617408267308970781, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6592879137479651291, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
       propertyPath: m_Pivot.x
@@ -1086,6 +1110,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680288621}
   m_CullTransparentMesh: 1
+--- !u!114 &1936719542 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5154198443715461996, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
+  m_PrefabInstance: {fileID: 105130737}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0b563496069bde4ba9f18c0da69782d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1996587578
 GameObject:
   m_ObjectHideFlags: 0
