@@ -179,5 +179,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuJogos.unity
     guid: cccbbe2adf8244944ad7bd59362a1381
+  - enabled: 1
+    path: Assets/Scenes/FrutasAprender_Pag3.unity
+    guid: 495c4858b717ed9429051e1f1eadfea2
+  - enabled: 1
+    path: Assets/Scenes/FrutasAprender_Pag2.unity
+    guid: c41e69f152fd6f144a4d9c8e6d3b7e06
+  - enabled: 1
+    path: Assets/Scenes/FrutasAprender_Pag1.unity
+    guid: 3e77bfec7b774524abe68b967b3ccd97
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

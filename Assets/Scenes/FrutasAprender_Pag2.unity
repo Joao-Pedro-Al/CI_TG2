@@ -665,11 +665,11 @@ PrefabInstance:
     - target: {fileID: 7163162386816402601, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
       propertyPath: m_Resource
       value: 
-      objectReference: {fileID: 8300000, guid: 673cb7a4a17565344b62f784db62da0e, type: 3}
+      objectReference: {fileID: 8300000, guid: cd616316a4c45fd47ac0289b582cb319, type: 3}
     - target: {fileID: 7163162386816402601, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 673cb7a4a17565344b62f784db62da0e, type: 3}
+      objectReference: {fileID: 8300000, guid: cd616316a4c45fd47ac0289b582cb319, type: 3}
     - target: {fileID: 8532891404552157160, guid: 5409072e76f5255458a8ef4d7bb73f10, type: 3}
       propertyPath: m_Name
       value: Canvas
