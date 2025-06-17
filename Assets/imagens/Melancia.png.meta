@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1867628ce540e6e4799344946b570a88
+guid: 97c927052f275a343a2a476b7dc4785f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -863573597839656734
-    second: Background_WhackAMole_Inicio_0
+      213: 3294065599582762778
+    second: Melancia_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_WhackAMole_Inicio_0
+      name: Melancia_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1280
-        height: 800
+        width: 1478
+        height: 1308
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e87c5f5368f304f0800000000000000
-      internalID: -863573597839656734
+      spriteID: a17f6f9c53fd6bd20800000000000000
+      internalID: 3294065599582762778
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Background_WhackAMole_Inicio_0: -863573597839656734
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

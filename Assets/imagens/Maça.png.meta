@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 1867628ce540e6e4799344946b570a88
+guid: ce7d13d50514e704eb92df4c1ca4846e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -863573597839656734
-    second: Background_WhackAMole_Inicio_0
+      213: 495386454769320475
+    second: "Ma\xE7a_0"
+  - first:
+      213: -1415490773823385578
+    second: "Ma\xE7a_1"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_WhackAMole_Inicio_0
+      name: "Ma\xE7a_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1280
-        height: 800
+        x: 258
+        y: 503
+        width: 1964
+        height: 2360
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e87c5f5368f304f0800000000000000
-      internalID: -863573597839656734
+      spriteID: b12c01f1b57ffd600800000000000000
+      internalID: 495386454769320475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ma\xE7a_1"
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2479
+        width: 544
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6101a6b04aa2b5ce0800000000000000
+      internalID: -1415490773823385578
       vertices: []
       indices: 
       edges: []
@@ -138,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Background_WhackAMole_Inicio_0: -863573597839656734
+      "Ma\xE7a_0": 495386454769320475
+      "Ma\xE7a_1": -1415490773823385578
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

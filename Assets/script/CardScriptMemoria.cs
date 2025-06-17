@@ -14,6 +14,7 @@ public class CardScriptMemoria : MonoBehaviour
         Below.gameObject.SetActive(true);
         Cover.gameObject.SetActive(true);
     }
+
     public void SetBelowColor(Color newColor)
     {
         Below.color = newColor;
@@ -27,13 +28,11 @@ public class CardScriptMemoria : MonoBehaviour
 
     public void DisableCover()
     {
-        Debug.Log("DisableCover chamado para " + gameObject.name);
         Cover.gameObject.SetActive(false);
     }
 
     public void EnableCover()
     {
-        Debug.Log("EnableCover chamado para " + gameObject.name);
         Cover.gameObject.SetActive(true);
     }
 }

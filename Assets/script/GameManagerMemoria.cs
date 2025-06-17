@@ -1,20 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 public class GameManagerMemoria : MonoBehaviour
 {
- private static int seconds;
- public static void SetSeconds(int newSeconds)
- {
- seconds = newSeconds;
- }
+    private static string formattedTime;
 
- public static int GetSeconds()
- {
- return seconds;
- }
-  public static void Reset()
- {
- seconds = 0;
- }
+    // Salva o tempo formatado (ex: "02:15")
+    public static void SetFormattedTime(string time)
+    {
+        formattedTime = time;
+    }
+
+    // Recupera o tempo formatado
+    public static string GetFormattedTime()
+    {
+        return formattedTime;
+    }
+
+    // Reseta o tempo salvo
+    public static void Reset()
+    {
+        formattedTime = "00:00";
+    }
 }

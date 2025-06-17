@@ -8,6 +8,9 @@ using Random = UnityEngine.Random;
 
 public class CardsManagerMemoria : MonoBehaviour
 {
+    [SerializeField] private AudioSource correctSound;
+    [SerializeField] private AudioSource wrongSound;
+
     [SerializeField]
     private List<CardScriptMemoria> listOfCards;
 
@@ -15,16 +18,16 @@ public class CardsManagerMemoria : MonoBehaviour
     private List<Color> colors;
 
     [SerializeField]
-    private List<Sprite> sprites; // TODO para o final da ficha
+    private List<Sprite> sprites;
 
     [SerializeField]
-    private bool shouldUseSprites; // TODO Alterar quando usar sprites
+    private bool shouldUseSprites;
 
     [SerializeField]
     private AudioSource victoryMusic;
 
     [SerializeField]
-    private TimerScriptMemoria timerScript;
+    private TimerScriptMemoria timerScript; // <- nome atualizado (camelCase)
 
     private CardScriptMemoria firstSelectedItem;
     private CardScriptMemoria secondSelectedItem;
@@ -35,64 +38,26 @@ public class CardsManagerMemoria : MonoBehaviour
     {
         canvasGroup = GetComponentInParent<CanvasGroup>();
 
-        int totalCards = listOfCards.Count;
-        int totalPairs = totalCards / 2;
-
-        if ((!shouldUseSprites && totalPairs != colors.Count) ||
-            (shouldUseSprites && totalPairs != sprites.Count))
+        if ((!shouldUseSprites && listOfCards.Count / 2 != colors.Count) || (shouldUseSprites && listOfCards.Count / 2 != sprites.Count))
         {
-            throw new ApplicationException("A configuração do GameManagerMemoria está errada.");
+            throw new ApplicationException("A configuração do GameManager está errada.");
         }
 
-        // Ativar todas as Covers
-        foreach (var card in listOfCards)
+        for (var i = 0; i < listOfCards.Count; i++)
         {
-            card.EnableCover();
-        }
-
-        // Atribuir cores ou sprites (duplicar e baralhar)
-        if (shouldUseSprites)
-        {
-            List<Sprite> duplicatedSprites = new List<Sprite>();
-            foreach (var sprite in sprites)
+            if (shouldUseSprites)
             {
-                duplicatedSprites.Add(sprite);
-                duplicatedSprites.Add(sprite);
+                listOfCards[i].SetBelowImage(sprites[i / 2]);
             }
-
-            Shuffle(duplicatedSprites);
-
-            for (int i = 0; i < listOfCards.Count; i++)
+            else
             {
-                listOfCards[i].SetBelowImage(duplicatedSprites[i]);
-            }
-        }
-        else
-        {
-            List<Color> duplicatedColors = new List<Color>();
-            foreach (var color in colors)
-            {
-                duplicatedColors.Add(color);
-                duplicatedColors.Add(color);
-            }
-
-            Shuffle(duplicatedColors);
-
-            for (int i = 0; i < listOfCards.Count; i++)
-            {
-                listOfCards[i].SetBelowColor(duplicatedColors[i]);
+                listOfCards[i].SetBelowColor(colors[i / 2]);
             }
         }
 
-        // Trocar visualmente a ordem dos cartões na hierarquia
         Shuffle(listOfCards);
-        for (int i = 0; i < listOfCards.Count; i++)
-        {
-            listOfCards[i].transform.SetSiblingIndex(i);
-        }
     }
 
-    // Baralha uma lista
     void Shuffle<T>(List<T> list)
     {
         int n = list.Count;
@@ -102,21 +67,25 @@ public class CardsManagerMemoria : MonoBehaviour
             int k = Random.Range(0, n + 1);
             (list[k], list[n]) = (list[n], list[k]);
         }
+
+        for (int i = 0; i < listOfCards.Count; i++)
+        {
+            listOfCards[i].transform.SetSiblingIndex(i);
+        }
     }
 
     public void OnCardClick()
     {
         if (EventSystem.current.currentSelectedGameObject == null)
-        {
             return;
-        }
 
         if (firstSelectedItem && secondSelectedItem)
-        {
             return;
-        }
 
         var clickedItem = EventSystem.current.currentSelectedGameObject.GetComponentInParent<CardScriptMemoria>();
+
+        if (clickedItem == null || clickedItem == firstSelectedItem)
+            return;
 
         if (!firstSelectedItem)
         {
@@ -131,25 +100,31 @@ public class CardsManagerMemoria : MonoBehaviour
         }
     }
 
-    private void CompareChosenItems()
+ private void CompareChosenItems()
+{
+    bool isMatch;
+
+    if (!shouldUseSprites)
     {
-        if (!shouldUseSprites)
-        {
-            if (firstSelectedItem.Below.color == secondSelectedItem.Below.color)
-            {
-                numberOfMatches++;
-                StartCoroutine(ResetAndCheckFinish(0, false));
-            }
-            else
-            {
-                StartCoroutine(ResetAndCheckFinish(2, true));
-            }
-        }
-        else
-        {
-            // TODO: Comparar sprites
-        }
+        isMatch = firstSelectedItem.Below.color == secondSelectedItem.Below.color;
     }
+    else
+    {
+        isMatch = firstSelectedItem.Below.sprite == secondSelectedItem.Below.sprite;
+    }
+
+    if (isMatch)
+    {
+        numberOfMatches++;
+        correctSound?.Play(); 
+    }
+    else
+    {
+        wrongSound?.Play(); 
+    }
+
+    StartCoroutine(ResetAndCheckFinish(isMatch ? 0 : 2, !isMatch));
+}
 
     IEnumerator ResetAndCheckFinish(int numberOfSecondsToWait, bool shouldReset)
     {
@@ -164,22 +139,31 @@ public class CardsManagerMemoria : MonoBehaviour
 
         firstSelectedItem = null;
         secondSelectedItem = null;
-
         canvasGroup.interactable = true;
 
         if (numberOfMatches == listOfCards.Count / 2)
         {
-            StartCoroutine(LoadFinalScene());
+            StartCoroutine(LoadFinalSceneMemoria());
         }
     }
 
-    IEnumerator LoadFinalScene()
+    IEnumerator LoadFinalSceneMemoria()
     {
-        GameManagerMemoria.SetSeconds(timerScript.GetTimerAndStop());
+        // Obtem o tempo total
+        float rawTime = timerScript.GetTimerAndStop();
+
+        // Formata como MM:SS
+        int minutes = Mathf.FloorToInt(rawTime / 60f);
+        int seconds = Mathf.FloorToInt(rawTime % 60f);
+        string formattedTime = $"{minutes:00}:{seconds:00}";
+
+        // Envia para o GameManagerMemoria
+        GameManagerMemoria.SetFormattedTime(formattedTime);
 
         victoryMusic.Play();
+
         yield return new WaitForSeconds(victoryMusic.clip.length);
 
-        SceneManager.LoadScene("FinalScene");
+        SceneManager.LoadScene("FinalSceneMemoria");
     }
 }

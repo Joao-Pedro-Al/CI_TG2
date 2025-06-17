@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Background_WhackAMole_Instru-Difi-Fim_0: 5064669033511579594
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

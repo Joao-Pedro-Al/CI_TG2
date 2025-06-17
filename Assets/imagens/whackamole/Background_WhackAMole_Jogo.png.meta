@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Background_WhackAMole_Jogo_0: -8858728996549986833
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

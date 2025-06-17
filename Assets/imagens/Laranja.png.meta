@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 1867628ce540e6e4799344946b570a88
+guid: 6a2126db8c7354740b246f93681424ec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -863573597839656734
-    second: Background_WhackAMole_Inicio_0
+      213: 82404969039523522
+    second: Laranja_0
+  - first:
+      213: 3037394783389039488
+    second: Laranja_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_WhackAMole_Inicio_0
+      name: Laranja_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1280
-        height: 800
+        x: 81
+        y: 358
+        width: 2203
+        height: 2661
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e87c5f5368f304f0800000000000000
-      internalID: -863573597839656734
+      spriteID: 2cee35bf1e2c42100800000000000000
+      internalID: 82404969039523522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laranja_1
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 2713
+        width: 500
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b3782767ef62a20800000000000000
+      internalID: 3037394783389039488
       vertices: []
       indices: 
       edges: []
@@ -138,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Background_WhackAMole_Inicio_0: -863573597839656734
+      Laranja_0: 82404969039523522
+      Laranja_1: 3037394783389039488
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
