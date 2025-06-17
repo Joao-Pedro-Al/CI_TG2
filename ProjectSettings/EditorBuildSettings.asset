@@ -191,5 +191,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MedioQuiz5.1.unity
     guid: fee84c31e04566a49bf6ccdf23eae708
+  - enabled: 1
+    path: Assets/Scenes/MedioQuiz6.1.unity
+    guid: 1fda1edb98d43cf46903fd95082f457e
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
