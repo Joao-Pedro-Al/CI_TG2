@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "M\xE9dio"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
-  m_sharedMaterial: {fileID: -776769702265679559, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -393,8 +393,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "F\xE1cil"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
-  m_sharedMaterial: {fileID: -776769702265679559, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1236,8 +1236,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Dif\xEDcil"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
-  m_sharedMaterial: {fileID: -776769702265679559, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1456,8 +1456,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Instru\xE7\xF5es"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
-  m_sharedMaterial: {fileID: -776769702265679559, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1594,8 +1594,8 @@ MonoBehaviour:
     cada frito, perde 1 ponto (2 no dif\xEDcil!);\n4 - Tenha uma pontua\xE7\xE3o
     de 10 ou maior!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
-  m_sharedMaterial: {fileID: -776769702265679559, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2087,7 +2087,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 0ee9eacc896984b47af3b1d0e8735b93, type: 3}
   m_Resource: {fileID: 8300000, guid: 0ee9eacc896984b47af3b1d0e8735b93, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.433
   m_Pitch: 1
   Loop: 1
   Mute: 0
