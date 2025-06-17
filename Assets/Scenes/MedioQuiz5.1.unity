@@ -463,7 +463,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3723836155308420666, guid: b5a632a23a6160046b11f52c1f2ee85c, type: 3}
+  m_Sprite: {fileID: -7581513707642343491, guid: a0701fbdb1140ab4ea57a0a26bebe03d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1422,7 +1422,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1098347600898518552, guid: ce97018900882e545b14fd7fa17e934b, type: 3}
+  m_Sprite: {fileID: -3939447382297670073, guid: c0f5cc40591345341a3643860e3dce73, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1509,7 +1509,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Qual destes alimentos \xE9 um bom recheio para uma sandes?"
+  m_text: "O que pode ter espinhas e n\xE3o \xE9 do pequeno-almo\xE7o?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fe063734f7bef654281333f72ff258a1, type: 2}
   m_sharedMaterial: {fileID: -776769702265679559, guid: fe063734f7bef654281333f72ff258a1, type: 2}
@@ -2034,7 +2034,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: MedioQuiz4
+          m_StringArgument: MedioQuiz6
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1436800810
@@ -2057,7 +2057,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2162109444679741774, guid: a430df34ac74bf1469c6cbe78191961c, type: 3}
+  m_Sprite: {fileID: 1396108258831760270, guid: 7ad69d3c3f5169d4d8f89b80f6f3bf59, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
