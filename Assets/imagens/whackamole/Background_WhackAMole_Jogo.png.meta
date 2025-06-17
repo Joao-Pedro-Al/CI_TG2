@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fc3cd5104cb85fe4db11129b14a691ec
+guid: dd55dd00b6e520444b11e0f14ca2f6eb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2907079179786991360
-    second: Puzzle_0
+      213: -8858728996549986833
+    second: Background_WhackAMole_Jogo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Puzzle_0
+      name: Background_WhackAMole_Jogo_0
       rect:
         serializedVersion: 2
-        x: 807
-        y: 1806
-        width: 837
-        height: 825
+        x: 0
+        y: 0
+        width: 1280
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00733259c15085820800000000000000
-      internalID: 2907079179786991360
+      spriteID: fe57f27c9e87f0580800000000000000
+      internalID: -8858728996549986833
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Puzzle_0: 2907079179786991360
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

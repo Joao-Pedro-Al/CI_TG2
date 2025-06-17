@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuQuiz.unity
     guid: 26589a2c5ef8dfa4e903d442203af8f8
   - enabled: 1
-    path: Assets/Scenes/menupuzzel.unity
+    path: Assets/Scenes/menuPuzzel.unity
     guid: a45aac83a38713847b4550ea444c9a25
   - enabled: 1
     path: Assets/Scenes/menuNIveisPuzzel.unity

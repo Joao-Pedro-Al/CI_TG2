@@ -332,8 +332,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Vegetais
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
+  m_sharedMaterial: {fileID: -776769702265679559, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -690,8 +690,8 @@ MonoBehaviour:
   m_text: "Vegetais s\xE3o categorizados como as partes comest\xEDveis de plantas,
     seja a raiz, o tub\xE9rculo, o bolbo, o fruto, a flor, as folhas ou o gr\xE3o!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
+  m_sharedMaterial: {fileID: -776769702265679559, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

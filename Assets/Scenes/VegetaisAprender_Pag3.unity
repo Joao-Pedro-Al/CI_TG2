@@ -332,8 +332,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Vegetais
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
+  m_sharedMaterial: {fileID: -776769702265679559, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -664,8 +664,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -62.373}
-  m_SizeDelta: {x: 0, y: 184.896}
+  m_AnchoredPosition: {x: 0, y: -52.411}
+  m_SizeDelta: {x: 0, y: 204.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1766665231
 MonoBehaviour:
@@ -691,8 +691,8 @@ MonoBehaviour:
     de doen\xE7as no cora\xE7\xE3o tamb\xE9m como a prote\xE7\xE3o contra alguns
     tipos de cancros."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
+  m_sharedMaterial: {fileID: -776769702265679559, guid: 290dba84a5b432840b7a0497492f7f79, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
